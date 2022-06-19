@@ -1,0 +1,24 @@
+
+public class MaxAdjArr {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Max difference between any adjacent index in array
+		int[] a = {10,4,-8,17,15}; //3 4,7,2
+		int diff =0;
+		for(int i=0;i<a.length-1;i++)
+		{
+			  if(a[i+1] - a[i]>diff)
+			  {
+				  diff=a[i+1] - a[i];
+//				  System.out.println("inside loop"+diff);
+			  }
+		}
+		
+		System.out.println(diff);
+		
+		
+		
+	}
+
+}
+
