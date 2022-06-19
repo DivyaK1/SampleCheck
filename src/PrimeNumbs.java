@@ -15,7 +15,7 @@ public class PrimeNumbs {
 	            isPrime = CheckPrime(i);
 	            if (isPrime) {
 	                primeNumbersFound = primeNumbersFound + i + " ";
-//	                System.out.println("loop"+primeNumbersFound);
+//	                System.out.println("loop..."+primeNumbersFound);
 	            }
 	        }
 	        System.out.println("Prime numbers from 1 to " + maxCheck + " are:");
